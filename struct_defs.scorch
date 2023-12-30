@@ -1,0 +1,12 @@
+struct Inventory |
+    entries : array
+|
+struct Entry |
+	name : string
+    quantity  : int
+|
+struct Store |
+    name : string
+    location : string
+    inventory : Inventory
+|
