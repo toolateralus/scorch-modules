@@ -1,12 +1,3 @@
-struct Inventory |
-    entries : array
-|
-struct Entry |
-	name : string
-    quantity  : int
-|
-struct Store |
-    name : string
-    location : string
-    inventory : Inventory
-|
+repeat i < 25 {
+    println("This module has loaded!")
+}
