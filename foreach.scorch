@@ -1,0 +1,6 @@
+const foreach : fn(arr : array, fn : fn) -> none {
+    repeat i < arr.len() {
+        fn(arr[i])
+    }
+    break arr
+}

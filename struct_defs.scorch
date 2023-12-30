@@ -1,3 +1,0 @@
-repeat i < 25 {
-    println("This module has loaded!")
-}
