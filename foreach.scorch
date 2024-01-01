@@ -1,13 +1,3 @@
-struct KeyValuePair |
-    key : dynamic,
-    value : dynamic,
-|
-
-struct Map |
-    _keys : array,
-    _values : array,
-|
-
 foreach : none(arr : array, callback : fn) {
     repeat i < arr.len() {
         callback(arr[i])
