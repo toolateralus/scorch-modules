@@ -1,6 +1,15 @@
-const foreach : fn(arr : array, fn : fn) -> none {
+struct KeyValuePair |
+    key : dynamic,
+    value : dynamic,
+|
+
+struct Map |
+    _keys : array,
+    _values : array,
+|
+
+foreach : none(arr : array, callback : fn) {
     repeat i < arr.len() {
-        fn(arr[i])
+        callback(arr[i])
     }
-    break arr
 }
